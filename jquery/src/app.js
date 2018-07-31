@@ -12,3 +12,7 @@ function search()
 {
     console.log("testing..");
 }
+function count(){
+    console.log($('#name').val().length);
+    $('#counter').text($('#name').val().length);
+}
